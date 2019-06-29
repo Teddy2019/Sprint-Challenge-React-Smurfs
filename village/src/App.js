@@ -32,7 +32,7 @@ class App extends Component {
         </nav>
 
         <Route path='/' exact render={() => <Smurfs smurfs={this.state.smurfs} />} />
-        <Route path='/smurf-form' exact render={() => <SmurfForm updateSumrfs={this.updateSumrfs} />}/>
+        <Route path='/smurf-form' exact render={(props) => <SmurfForm {...props} updateSumrfs={this.updateSumrfs} />}/>
       </div>
     );
   }
