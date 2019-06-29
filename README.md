@@ -30,7 +30,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Explain the differences between `client-side routing` and `server-side routing`.
 
-`server-side routing`-Every time When we request information from a server,  and that server then sends back that document that was requested. and it refresh our page every time when we request data.
+`server-side routing`-  Every time When we request information from a server,  and that server then sends back that document that was requested. and it refresh our page every time when we request data.
 `client-side routing` initial we request all all data from the server and then every manajement and data request undeled on the client brouser. When Routing is handled internally by the JavaScript that is already on the page we achieve what is known as Client-side routing. 
 
 - [ ] What does HTTP stand for?
