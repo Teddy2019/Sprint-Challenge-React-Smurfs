@@ -28,7 +28,7 @@ class App extends Component {
       <div className="App">
         <nav className='Nav'>
           <NavLink to='/'>Smurfs List</NavLink>
-          <NavLink to ='/smurf-form' >Add New Sumurfs</NavLink>
+          <NavLink className='Add' to ='/smurf-form' >Add New Sumurfs</NavLink>
         </nav>
 
         <Route path='/' exact render={() => <Smurfs smurfs={this.state.smurfs} />} />
