@@ -1,3 +1,18 @@
 .App {
   text-align: center;
 }
+
+.Nav {
+  width: 40%;
+  display: flex;
+  margin: 0 auto;
+  padding: 2.5%;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  background: antiquewhite;
+}
+
+.Add {
+  text-decoration: none;
+  font-size: 0.8rem
+}
